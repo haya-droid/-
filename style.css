@@ -1,0 +1,81 @@
+/*ページ全体*/
+body {
+    font-size: 15px;
+    font-family: monospace;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+/*ページ全体部分*/
+#page {
+    background-color: ghostwhite;
+    width: 640px;
+    height: 2900px;
+    border: solid 3px black;
+    margin: 0 auto;
+    padding: 0;
+}
+p {
+    text-indent: 1em;
+}
+/*見出し１*/
+header h1 {
+    font-size: 30px;
+    padding: 10 14px;
+    margin: 10px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/*見出し２*/
+h2 {
+    text-align: center;
+}
+/*見出し３*/
+h3 {
+    margin: 8px 0;
+    padding: 3px 5px;
+    border-left: 8px solid black;
+    border-bottom: 5px ridge darkgray;
+}
+/*箇条書き部分*/
+ul {
+    margin: 24px 20px;
+    padding: 8px 0;
+    text-align: center;
+}
+/*都城語句を強調するとき*/
+em {
+    font-style: normal;
+}
+/*引用文に関するキャプション*/
+figcaption {
+    font-size: 9px;
+}
+/*箇条書き部分リスト箇所*/
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 12px 10px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 8px;
+}
+/*リンク部分*/
+a {
+    text-decoration: black;
+    color: darkgray;
+}
+a:active, a:hover, a:visited {
+    color: dimgrey;
+}
+/*コンテンツ内容を囲むdivタグ*/
+#contents {
+    margin: 20px;
+    padding: 0;
+}
+/*クラスによる設定*/
+.space {
+    margin: 0 20px;
+    border-top: solid 1px black;
+}
